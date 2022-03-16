@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Trail" parallel="tests" thread-count="2" group-by-instances="true">
+
+<listeners>
+
+<listener class-name="org.listnerClass.Lister"/>
+<listener class-name="org.revalidation.IAnnotationTransformer"/>
+
+
+</listeners>
+
+  <test name="Test">
+  
+  <parameter name="browser" value="chrome"></parameter>
+  
+  <classes>
+  
+  <class name="org.runnerClass.RunnerClass"/> 
+  
+  
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

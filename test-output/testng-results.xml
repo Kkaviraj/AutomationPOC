@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Trail" duration-ms="34070" started-at="2022-03-15T15:39:33Z" finished-at="2022-03-15T15:40:07Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.runnerClass.RunnerClass@27a8c74e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="34070" started-at="2022-03-15T15:39:33Z" finished-at="2022-03-15T15:40:07Z">
+      <class name="org.runnerClass.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.runnerClass.RunnerClass@27a8c74e]" name="setUpClass" is-config="true" duration-ms="995" started-at="2022-03-15T21:09:51Z" finished-at="2022-03-15T21:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.runnerClass.RunnerClass@27a8c74e]" name="runScenario" duration-ms="7796" started-at="2022-03-15T21:09:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-15T21:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of Home Page links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation of Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.runnerClass.RunnerClass@27a8c74e]" name="runScenario" duration-ms="5682" started-at="2022-03-15T21:10:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-15T21:10:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of Home Page images"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation of Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.runnerClass.RunnerClass@27a8c74e]" name="tearDownClass" is-config="true" duration-ms="2175" started-at="2022-03-15T21:10:05Z" finished-at="2022-03-15T21:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.runnerClass.RunnerClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Automation Trail -->
+</testng-results>

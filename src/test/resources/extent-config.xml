@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+    
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>http</protocol>
+        
+        <!-- title of the document -->
+        <documentTitle>AUTOMATION TRAIL</documentTitle>
+        
+        <!-- report name - displayed at top-nav -->
+        <reportName>AUTOMATION TESTING TRAIL</reportName>
+
+		<!-- timestamp format -->
+		<timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+		
+   <systeminfo.os>Windows</systeminfo.os> 
+   <systeminfo.version>10</systeminfo.version>
+   
+   
+   
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+                
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
